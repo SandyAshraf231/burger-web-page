@@ -1,0 +1,249 @@
+#section1
+{
+    height: 800px;
+   /* background-color: brown;*/
+    overflow: hidden;
+    background: lightslategray url(../images/banner.jpg)  no-repeat  center/cover  ;
+    background-blend-mode: multiply;
+    width: 100%;
+    
+}
+
+#header1
+{
+    width: 70%;
+    height: 60px;
+    margin: auto;
+ padding-top: 10px;
+   
+
+}
+#logo
+{
+    width: 300px;
+    margin-left: 25px;
+    color: beige;
+    font-size: 25px;
+    float: left;
+
+}
+
+#logo span::before {
+      content: url(../images/burger.png);
+        vertical-align: sub ;
+   
+}
+
+#nav1
+{
+    float: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+
+}
+#nav1 span
+{
+    color: aliceblue;
+    padding: 20px;
+}
+#nav1 span:hover{
+    color: orange;
+}
+#content
+{
+    width: 50%;
+    height: 600px;
+   /* background-color: aqua;*/
+    float: left;
+    clear: both;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+
+
+#content-header
+{
+    color: aliceblue;
+    margin-left: 25px;
+}
+#content-name{
+letter-spacing: 3px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 60px;
+color: transparent;
+-webkit-text-stroke: 1px aliceblue;
+margin-left: 25px;
+}
+
+#pr1
+{
+    margin-left: 25px;
+    color: aliceblue;
+    margin-bottom: 35px;
+
+}
+
+#seeMenu
+{
+    
+    padding-top: 20px;
+    float: left;
+    padding-left:10%;
+    color: orange;
+    clear: both;
+    border-radius: 3px red;
+  
+}
+#bookTable
+{
+    float: right;
+  padding-right: 50%;
+ padding-top: 20px;
+ color: orange;
+
+}
+#seeMenu:hover{
+    color: black;
+}
+#bookTable:hover{
+    color: black;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    color: orange;
+    margin-left: 30px;
+    
+}
+button:hover
+{
+    background-color: orange;
+    color: black;
+}
+
+/*secssion2*/
+.secssion2
+{
+    height: 400px;
+    background:lightgray ;
+    
+    
+}
+.blocks
+{
+    width: 70%;
+    margin: auto;
+    height: 400px;
+   
+}
+.block
+{
+    width: 30%;
+    float: left;
+    background-color: white;
+    height: 300px;
+    margin: 50px 1.6%;
+    padding: 20px;
+    text-align: center;
+   
+    box-sizing: border-box;
+
+}
+/*section 3*/
+
+.section3
+{
+    height: 550px;
+    /*background-color: aqua;*/
+    overflow: hidden;
+}
+
+.contentSec3
+{
+    width: 70%;
+    background-color: white;
+    height: 550px;
+    margin: auto;
+}
+ol{
+    list-style: none;
+   padding-top: 5%;
+   float: left;
+}
+ol li
+{  color:darkslateblue ;
+    font-size: 30px;
+    padding: 20px;
+
+}
+ol li::before{
+    content: '\2661';
+    color:orange;
+    padding-right: 5px;
+    vertical-align: baseline;
+}
+.sec3Img
+{
+    float: right;
+}
+
+/*section4*/
+
+.section4
+{
+    height: 300px;
+  /*  background-color: blueviolet;*/
+    margin: auto;
+    background: rgb(83, 93, 104) url(../images/bg.jpg)  no-repeat  center/cover   ;
+    background-blend-mode: multiply;
+   
+
+}
+.se4Txt{
+width: 70%;
+margin: auto;
+height: 300px;
+/*background-color: blue;*/
+}
+.callUs
+{
+    padding-top: 100px;
+    margin-left:30%;
+    color: white;
+    padding-bottom: 30px;
+  
+    
+  
+}
+.callUs::after
+{
+    content: '+1 123 456 789';
+    color: orange;
+
+}
+
+
+.btn
+{
+    margin-left:35%;
+
+}
+/*footer*/
+
+.footer
+{
+    height: 50px;
+    background: rgb(36, 34, 34);
+   
+}
+
+.footerTxt
+{
+    
+    margin: auto;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
